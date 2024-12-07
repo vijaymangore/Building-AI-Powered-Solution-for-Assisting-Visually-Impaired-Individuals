@@ -10,7 +10,7 @@ from langchain_google_genai import GoogleGenerativeAI
 pytesseract.pytesseract.tesseract_cmd = r'C:\Program Files\Tesseract-OCR\tesseract.exe'  # Adjust based on your system
 
 # Set API Key for Google Generative AI
-f =  open('C:/Users/ADMIN/Desktop/genai/key.txt')
+f =  open('C:/Users/ADMIN/Desktop/final_Project_Genai/key.txt')
 GOOGLE_API_KEY = f.read().strip()
 
 # Initialize Google Generative AI
